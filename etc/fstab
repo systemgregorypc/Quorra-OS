@@ -1,0 +1,3 @@
+cat > ${CLFS}/targetfs/etc/fstab << "EOF"
+# file-system  mount-point  type   options          dump  fsck
+EOF
