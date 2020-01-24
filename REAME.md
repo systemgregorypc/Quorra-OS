@@ -1,12 +1,3 @@
-#define DISKNAME  Linux Quorra OS  - Release amd64
-#define TYPE  binary
-#define TYPEbinary  1
-#define ARCH  amd64
-#define ARCHamd64  1
-#define DISKNUM  1
-#define DISKNUM1  1
-#define TOTALNUM  0
-#define TOTALNUM0  1
 
 
 # Quorra-OS
