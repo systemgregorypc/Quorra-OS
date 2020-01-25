@@ -1,0 +1,13 @@
+sudo: required
+language: cpp
+compiler:
+ - gcc
+ - clang
+script: 
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make DESTDIR=quorra install
+install:
+ - sudo apt-get update
+ - sudo apt-get install xorriso grub-common gcc-multilib
