@@ -9,7 +9,7 @@ multiboot_header:
 .long -(0x1BADB002+0x00000003)
 multiboot_entry:
 movl $(stack + 0x4000), %esp
-call quorraKernel_Main
+call quorra-OS_Main
 loop: hlt
 jmp loop
 .section ".bss"
