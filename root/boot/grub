@@ -1,0 +1,3 @@
+mkdir quorraroot && cd quorraroot
+
+mkdir -p boot/grub
